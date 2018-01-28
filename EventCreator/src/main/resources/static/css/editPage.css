@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+html {
+	content: "";
+	background: url('/images/edit.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	text-align: center;
+}
+h3.title{
+	color: white;
+	text-shadow: 0px 1px 2px black, 0px 1px 5px black, 0px -1px black;
+}
+
+h3.title span {
+	color: white;
+	text-shadow: 0px 1px 2px black, 0px 1px 5px black, 0px -1px black;
+	font-size: x-large;
+}
+div.section {
+	width: 400px;
+	background: white;
+	opacity: 0.9;
+	text-align: center;
+	display: inline-block;
+}
+
+div.section h1{
+	color: indigo;
+}
+
+label {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+input{
+	color: white;
+	background: #343434;
+}
+
+select {
+	color:white;
+	background: #343434;
+}
+input.edit {
+	width: 272px;
+	height: 30px;
+	margin-bottom: 20px;
+	background: darkorange;
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+#name {
+	width: 162px;
+	margin-right: 9px;
+}
+
+#date {
+	width: 162px;
+}
+
+#location {
+	width: 162px;
+	margin-right: 28px;
+}
+
+#state {
+	width: 166px;
+	margin-right: 4px;
+}
+#category {
+	width: 165px;
+	margin-right: 35px;
+}
+
+#description {
+	margin-right: 18px;
+	color: white;
+	background: #343434;
+}
+.back {
+	display:block;
+	text-align: left;
+}
+
+label.details {
+	vertical-align: top;
+}

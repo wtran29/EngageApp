@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+.title {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 25px;
+	text-align: left;
+	text-shadow: 0px 1px black, 0px 1px black;
+}
+fieldset.event {
+	width: 300px;
+	border: 5px double black;
+	background: white;
+	opacity:0.9;
+	color: black;
+	text-align: left;
+	height: 365px;
+}
+fieldset.event h1 {
+	font-family: fantasy;
+	color: indigo;
+	font-weight: normal;
+}
+
+fieldset.event p {
+	font-family: monospace;
+	margin: 0 auto;
+	padding-left: 5px;
+	font-weight: bold;
+}
+table {
+	font-family: helvetica;
+	border-collapse: collapse;
+	width: 285px;
+	
+	
+}
+td, th {
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+th {
+    text-align: left;
+    background-color: indigo;
+    color: white;
+}
+
+div.scroller {
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 164px;
+	margin-top: 20px;
+	
+}
+fieldset.message {
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 262px;
+	border: 2px solid black;
+	background: white;
+	opacity: 0.9;
+	color: blue;
+	text-align: left;
+	font-family: cursive;
+	padding: 20px;
+	width: 586px;
+	
+}
+fieldset.message h1 {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+html {
+	content: "";
+	background: url('/images/show.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	text-align: center;
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+.back {
+	display:block;
+	text-align: left;
+}
+
+.event-section {
+	display: inline-block;
+	
+}
+
+.message-section {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.message-section h1{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-shadow: 0px 1px 5px black,
+		0px 1px 10px black,
+		0px -1px black,
+		-1px -1px black;
+}
+label.comment {
+	text-shadow: 0px 1px 5px black, 
+		0px 1px 2px black, 
+		0px -1px black;
+	
+	font-weight: bold;
+}
+#comment {
+	width: 440px;
+	border: 2px solid black;
+}
+input.submit {
+	width:60px;
+	height: 25px;
+	color: white;
+	font-weight: bold;
+	background: indigo;
+	border: none;
+	
+}
+ span.comment-color {
+ 	color: black;
+ }
+ 
+ 
